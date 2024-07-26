@@ -124,7 +124,7 @@ public class BSTree<E extends Comparable<? super E>> implements BSTreeADT<E> {
                 return add(node.getRight(), newEntry);
             }
         } else {
-            return false; // Duplicate element
+            return false; 
         }
     }
 
